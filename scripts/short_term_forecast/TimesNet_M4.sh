@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=2
 
 model_name=TimesNet
 
@@ -25,6 +25,7 @@ python -u run.py \
   --itr 1 \
   --learning_rate 0.001 \
   --loss 'SMAPE'
+  --num_workers 0
 
 python -u run.py \
   --task_name short_term_forecast \
@@ -49,6 +50,7 @@ python -u run.py \
   --itr 1 \
   --learning_rate 0.001 \
   --loss 'SMAPE'
+  --num_workers 0
 
 python -u run.py \
   --task_name short_term_forecast \
@@ -73,6 +75,7 @@ python -u run.py \
   --itr 1 \
   --learning_rate 0.001 \
   --loss 'SMAPE'
+  --num_workers 0
 
 python -u run.py \
   --task_name short_term_forecast \
@@ -97,6 +100,7 @@ python -u run.py \
   --itr 1 \
   --learning_rate 0.001 \
   --loss 'SMAPE'
+  --num_workers 0
 
 python -u run.py \
   --task_name short_term_forecast \
@@ -121,6 +125,7 @@ python -u run.py \
   --itr 1 \
   --learning_rate 0.001 \
   --loss 'SMAPE'
+  --num_workers 0
 
 python -u run.py \
   --task_name short_term_forecast \
@@ -145,3 +150,4 @@ python -u run.py \
   --itr 1 \
   --learning_rate 0.001 \
   --loss 'SMAPE'
+  --num_workers 0
